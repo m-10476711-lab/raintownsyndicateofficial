@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap');
-
 @import "tailwindcss";
 
 :root {
@@ -23,7 +21,7 @@ body {
   margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Inter', sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 ::selection {
@@ -43,14 +41,7 @@ body {
   color: transparent;
 }
 
-.neon-border {
-  border: 1px solid transparent;
-  background:
-    linear-gradient(#11111e, #11111e) padding-box,
-    linear-gradient(90deg, #9333ea, #ef233c, #2563eb) border-box;
-}
-
-:: -webkit-scrollbar {
+::-webkit-scrollbar {
   width: 8px;
 }
 
