@@ -1,5 +1,6 @@
 
 @import "tailwindcss";
+@source "./**/*.{js,ts,jsx,tsx}";
 
 :root {
   --background: #080812;
@@ -19,6 +20,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, sans-serif;
@@ -53,3 +55,4 @@ body {
   background: #9333ea;
   border-radius: 10px;
 }
+
